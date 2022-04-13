@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Whisper&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Grape Nuts';
 }
 
 body {
@@ -70,10 +73,16 @@ figure {
     justify-content: space-around;
 }
 
+figcaption {
+    font-size: larger;
+    font-weight: bold;
+}
+
 footer {
     padding: 10px;
     background-color: lightgreen;
     text-align: center;
+    font-family: Whisper;
 }
 
 .opaque {
