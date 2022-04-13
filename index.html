@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Rock, Paper and Scissors</title>
 </head>
 <body>
+    <header>
+        <h1>ROCK, PAPER & SCISSORS GAME</h1>
+    </header>
+    <main>
+        <div id="scoreboard-container">
+            <h2>SCORE</h2>
+            <div>
+                <div class="scoreboard-card">
+                    <h3>PLAYER</h3>
+                    <h3 class="score player">0</h3>
+                </div>
+                <h3>-</h3>
+                <div class="scoreboard-card">
+                    <h3>CPU</h3>
+                    <h3 class="score cpu">0</h3>
+                </div>
+            </div>
+        </div>
+        <p id="output"> </p>
+        <div class="options">
+            <figure>
+                <img src="./img/rock.svg" alt="Rock" width="250px" height="250px">
+                <figcaption>ROCK</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/paper.svg" alt="Paper" width="250px" height="250px">
+                <figcaption>PAPER</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/scissors.svg" alt="Scissors" width="250px" height="250px">
+                <figcaption>SCISSORS</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>Made by: Piru</p>
+        <p>Images by: Kika</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
